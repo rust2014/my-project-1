@@ -1,0 +1,48 @@
+body {
+  color: rgba (255, 255, 255, 0.5);
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+.image {
+  width: 520px;
+  height: 190px;
+  margin-top: 110px;
+  margin-bottom: 11px;
+}
+.advice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 420px;
+  height: 140px;
+  margin-top: 10px;
+}
+span{
+  font-size: 120px;
+  font-weight: normal;
+}
+
+span:hover ~ #assassin_creed_text{
+  display: block;
+}
+
+#assassin_creed_text{
+  display: none;
+}
+
+
+.footer {
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 280px;
+  margin-bottom: 30px;
+}
+
