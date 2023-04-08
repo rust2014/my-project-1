@@ -1,0 +1,205 @@
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  width: 1440px; 
+  padding-top: 104px;
+  padding-left: 133px;
+  padding-right: 133px;
+  padding-bottom: 168px;
+  background-color: #F8F8F8;
+  margin-bottom: 43px; /* отступ от main */
+}
+
+.header-title {
+  font-size: 24px; /* Размер текста */
+  line-height: 45px; /* высота текста */
+  margin-bottom: 53px; /* Отступ до нижнего элемента */
+  font-weight: 300; /* Жирота текста */
+}
+
+.header-subtitle {
+  font-size: 250px; 
+  line-height: 230px; 
+  margin-bottom: 43px; 
+}
+
+.header-text {
+  font-size: 32px; 
+  line-height: 50px; 
+  margin-bottom: 61px; /* Отступ до нижнего элемента */
+}
+
+.mor705 { /* Для увеличения убрал ресет стилей в шапке */
+  display: block; 
+  width: 772px;
+  margin-top: -104px; /* Чтобы поднять картинку выше падинга, который указали ранее */
+}
+
+.box-bay {
+display: flex; /* ставит в ряд, блок- ставит столбом */
+}
+
+.link-buy {
+  display: block; 
+  background-color: #000000;
+  color: #fff; /* цвет текста */
+  width: 278px;
+  height: 82px;
+  font-size: 32px;
+  line-height: 82px; /* если задать высоту равную высоту блока, то выравнивается по вертикали */
+  text-align: center; /* выравнивание текста по горизонту */
+}
+
+.price {
+  display: block;
+  background-color: #fff;
+  width: 143px;
+  height: 82px;
+  font-size: 32px;
+  line-height: 82px;
+  text-align: center; /* выравнивание текста по горизонту */
+}
+
+
+
+.title-main {
+font-size: 24px;
+font-weight: 300;
+line-height: 44px; /* высота текста */
+text-align: center; /* выравнивание по горизонту без отступа падинг */
+}
+
+.subtitle-main {
+font-size: 72px;
+font-weight: 400;
+line-height: 81px;
+margin-bottom: 84px;
+text-align: center; /* выравнивание по горизонту без отступа падинг */
+}
+
+.watch-son {
+  margin-left: 0 auto;
+  width: 417px;
+  margin-bottom: 85px;
+}
+
+.img-watch-son {
+  margin-bottom: 67px;
+  margin-left: 511px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  background-color: #f8f8f8;
+}
+
+.description-son {
+  justify-content: center;
+  text-align: center;
+  width: 531px;
+  height: 238px;
+  margin-left: 454px; /* ????? */}
+
+.description-son-title {
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.description-son-subtitle {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.watch-sw {
+  margin-left: 0 auto;
+  width: 417px;
+  margin-bottom: 59px;
+}
+
+.img-watch-sw {
+  margin-bottom: 67px;
+  margin-left: 511px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  background-color: #f8f8f8;
+}
+
+.description-sw {
+  justify-content: center;
+  text-align: center;
+  width: 531px;
+  height: 238px;
+  margin-left: 465px; /* ????? */
+}
+
+.description-sw-title {
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.description-sw-subtitle {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.bottom {
+  display: block;
+  text-align: center;
+  margin-left: 0 auto;
+}
+
+.text-bottom {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 58px;
+}
+
+.description-bottom {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 515px;
+  height: 231px;
+  margin-left: 464px;
+}
+
