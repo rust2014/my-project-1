@@ -256,3 +256,8 @@ text-align: justify;
 font-family: 'Poppins', sans-serif;
 margin-right: 66px;
 }
+
+.conteiner-contact-me {
+height: 775px;
+background-color: rgb(183, 76, 76, 0.35);
+}
