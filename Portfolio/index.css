@@ -1,0 +1,258 @@
+html {
+box-sizing: border-box;
+font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+.header-top {
+display: flex;
+padding-left: 100px;
+padding-top: 81px;
+padding-right: 108px;
+padding-bottom: 50px;
+width: 1919px;
+height: 216px;
+background-color: rgb(183, 76, 76, 0.42);
+margin-bottom: -7px;
+}
+
+.header-title {
+display: flex;
+background-color: rgb(176, 85, 85, 0.62);
+width: 1919px;
+height: 878px;
+padding-top: 103px;
+padding-left: 165px;
+border-radius: 0px 0px 30px 30px;
+margin-bottom: 123px;
+}
+
+.title {
+width: 611px;
+height: 78px;
+margin-right: 250px;
+font-size: 48px;
+line-height: 67px;
+font-weight: 400;
+font-family: 'Pattaya', sans-serif;
+letter-spacing: 0.25em; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button-home { 
+padding-top: 17px;
+margin-right: 97px;
+color: #fff;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;
+letter-spacing: 0.25em; 
+font-family: 'Poppins', sans-serif;
+}
+
+.button-about {
+padding-top: 17px;
+margin-right: 94px;
+color: #fff;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;
+letter-spacing: 0.25em; 
+font-family: 'Poppins', sans-serif;
+}
+
+.button-service { 
+padding-top: 17px;
+margin-right: 94px;
+color: #fff;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;  
+letter-spacing: 0.25em;
+font-family: 'Poppins', sans-serif; 
+}
+
+.button-contact{
+padding-top: 17px;
+margin-right: 94px;
+color: #fff;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;     
+letter-spacing: 0.25em; 
+font-family: 'Poppins', sans-serif;
+}
+
+.search-png {
+width: 30px;
+height: 30px;
+}
+
+.title-foto {
+width: 641px;
+height: 644px;
+}
+
+.top-text {
+width: 237px;
+height: 108px;
+color: #fff;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+letter-spacing: 0.25em; 
+text-align: left;
+font-family: 'Poppins', sans-serif;
+padding-left: 380px;
+}
+
+.destricktion {
+width: 867px;
+height: 260px;
+font-weight: 600;
+color: #fff;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1em; 
+text-align: center;
+font-family: 'Poppins', sans-serif;
+padding-left: 130px;
+}
+
+.button {
+width: 442px;
+height: 86px;
+font-weight: 400;
+font-size: 24px;
+line-height: 86px; /* выставил высоту блока для выравнивания по вертикали */
+letter-spacing: 0.25em; 
+text-align: center;
+font-family: 'Poppins', sans-serif;
+margin-top: -29px;
+}
+
+.but {
+width: 443px;
+height: 86px;
+background-color: rgb(255, 255, 255, 0.5);
+margin-left: 244px;
+text-align: center;
+border-radius: 9px;
+}
+
+.conteiner-text {
+height: 400;
+width: 740;
+padding-top: 65px;
+}
+
+.container-main {
+width: 1919px;
+display: block;
+padding-left: 100px;
+}
+
+.conteiner-img {
+display: flex;
+margin-bottom: 48px;
+}
+
+.conteiner-img-center {
+display: flex;
+margin-bottom: 85px;
+margin-left: 112px;
+}
+
+.image-fon {
+width: 664px;
+height: 609px;
+background-color: rgb(183, 76, 76, 0.35);
+margin-right: 83px;
+}
+
+.img {
+margin-left: 57px;
+margin-top: 52px;
+margin-right: 56px;
+width: 551px;
+height: 505px;
+}
+
+.title-and-botton {
+display: flex;
+width: 800px;
+height: 74px;
+margin-top: 165px;
+margin-bottom: 42px;
+}
+
+.title-text-img {
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.25em; 
+line-height: 74px;
+font-family: 'Poppins', sans-serif;
+}
+
+.fon-button {
+width: 203px;
+height: 74px;
+background-color: rgb(183, 76, 76, 0.35);
+border-radius: 9px;
+text-align: center;
+margin-left: 113px;
+}
+
+.button-view {
+color: #fff;
+font-weight: 700;
+font-size: 36px;
+line-height: 74px;
+letter-spacing: 0.25em; 
+font-family: 'Poppins', sans-serif;
+}
+
+.text-img {
+height: 260px;
+width: 773px;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.25em; 
+line-height: 27px;
+text-align: justify;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.title-and-botton-center {
+display: flex;
+width: 780px;
+height: 74px;
+margin-top: 165px;
+margin-bottom: 42px;
+}
+
+.text-img-center {
+height: 260px;
+width: 773px;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.25em; 
+line-height: 30px;
+text-align: justify;
+font-family: 'Poppins', sans-serif;
+margin-right: 66px;
+}

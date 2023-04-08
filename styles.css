@@ -25,9 +25,10 @@ html {
   height: 140px;
   margin-top: 10px;
 }
-span{
+span {
   font-size: 120px;
   font-weight: normal;
+
 }
 
 span:hover ~ #assassin_creed_text{
@@ -44,5 +45,9 @@ span:hover ~ #assassin_creed_text{
   font-weight: normal;
   margin-top: 280px;
   margin-bottom: 30px;
+}
+
+.title {
+  margin-top: 100px;
 }
 
