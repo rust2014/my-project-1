@@ -258,6 +258,59 @@ margin-right: 66px;
 }
 
 .conteiner-contact-me {
+display: flex;
+padding-top: 100px;
+padding-left: 100px;
 height: 775px;
 background-color: rgb(183, 76, 76, 0.35);
 }
+
+.contact-window{
+width: 821px;
+height: 597px;
+background-color: #fff;
+margin-right: 100px;
+padding-left: 152px;
+padding-top: 97px;
+padding-right: 170px;
+}
+
+.text-contact{
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.25em; 
+line-height: 30px;
+font-family: 'Poppins', sans-serif;
+padding-top: 47px;
+}
+
+.botton-contact-me {
+height: 97px;
+width: 394px;
+background-color: rgba(192, 105, 77, 0.471);
+border-radius: 10px;
+text-align: center;
+margin-top: 50px; 
+}
+
+.botton-contact-text {
+font-weight: 700;
+font-size: 24px;
+letter-spacing: 0.25em; 
+line-height: 97px;
+font-family: 'Poppins', sans-serif;
+}
+
+.fon-flowers {
+background-image: url(images/flowers.png);
+width: 1919px;
+height: 685px;
+opacity: 0.25; /*прозрачность картинки*/
+padding-top: 215px;
+padding-left: 200px;
+}
+
+
+/*
+<img class="fon-flowers" src="images/flowers.png" alt="flowers" width="1919px" height="685px">
+*/
